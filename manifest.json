@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "What color is this?",
+  "description": "Easily learn the name of the color you click on. Useful for colorblinds.",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["scripting", "activeTab", "contextMenus", "storage"]
+}
